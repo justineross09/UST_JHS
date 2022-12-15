@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm start npm ticketing-backend",
     "client": "npm start yarn ust-ticketing",
-    "dev": "concurrently \"npm run ticketing-backend\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
