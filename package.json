@@ -1,0 +1,22 @@
+{
+  "name": "ust_jhs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm start npm ticketing-backend",
+    "client": "npm start yarn ust-ticketing",
+    "dev": "concurrently \"npm run ticketing-backend\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justineross09/UST_JHS.git"
+  },
+  "author": "Justine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justineross09/UST_JHS/issues"
+  },
+  "homepage": "https://github.com/justineross09/UST_JHS#readme"
+}
